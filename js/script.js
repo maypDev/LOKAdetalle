@@ -6,15 +6,13 @@ document.addEventListener('click', e => {
             title: 'Ya me esperaba esa respuesta mi Musa 😍',
             confirmButtonText: 'Dale click 😁',
             with: 600,
-            padding: '3em',
+            padding: '1em',
             color: '#716add',
             background: 'rgba(207, 208, 218, 1)',
-            backdrop: `
-            rgba(0,0,123,0.4)
-            url("img/totorofeliz-unscreen.gif")
-            left top
-            no-repeat
-            `
+            imageUrl: 'img/totorofeliz-unscreen.gif',
+            imageAlt: 'Totoro feliz', 
+            imageWidth: 300, 
+            imageHeight: 200, 
         }).then((result) =>{
             if(result.isConfirmed){
                 let url = "https://api.whatsapp.com/send?phone=59161298210&text="+"Si acepto mi amor 🥰🥰😘 a seguir adelante. TE DEBO UNA COMIDA🍝";
