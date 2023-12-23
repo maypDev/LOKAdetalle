@@ -3,7 +3,7 @@ const btnSI = document.getElementById('si'), btnNO = document.getElementById('no
 document.addEventListener('click', e => {
     if(e.target === btnSI){
         Swal.fire({
-            title: 'Ya me esperaba esa respuesta mi amor 😍',
+            title: 'Ya me esperaba esa respuesta mi Musa 😍',
             confirmButtonText: 'Dale click 😁',
             with: 600,
             padding: '3em',
@@ -11,13 +11,13 @@ document.addEventListener('click', e => {
             background: 'rgba(207, 208, 218, 1)',
             backdrop: `
             rgba(0,0,123,0.4)
-            url("img/cat.gif")
+            url("img/totorofeliz-unscreen.gif")
             left top
             no-repeat
             `
         }).then((result) =>{
             if(result.isConfirmed){
-                let url = "https://api.whatsapp.com/send?phone=59161818154&text="+"Si acepto mi amor 🥰🥰😘";
+                let url = "https://api.whatsapp.com/send?phone=59161298210&text="+"Si acepto mi amor 🥰🥰😘 a seguir adelante. TE DEBO UNA COMIDA🍝";
                 window.open(url);
             }
         })
