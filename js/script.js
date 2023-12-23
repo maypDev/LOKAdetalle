@@ -14,7 +14,7 @@ document.addEventListener('click', e => {
             imageHeight: '30vh', 
         }).then((result) =>{
             if(result.isConfirmed){
-                let url = "https://api.whatsapp.com/send?phone=59161298210&text="+"Si acepto mi amor 🥰🥰😘 a seguir adelante. TE DEBO UNA COMIDA🍝";
+                let url = "https://api.whatsapp.com/send?phone=59161818154&text="+"Si acepto mi amor 🥰🥰😘 a seguir adelante. TE DEBO UNA COMIDA🍝";
                 window.open(url);
             }
         })

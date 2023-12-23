@@ -42,7 +42,7 @@ main button#no{
 }
 main img{
     position: absolute;
-    bottom: 0;
+    bottom: 5vh;
     width: 80vw;
     left: calc(50% - (80vw/2));
     z-index: -1;
