@@ -11,7 +11,7 @@ document.addEventListener('click', e => {
             background: 'rgba(207, 208, 218, 1)',
             backdrop: `
             rgba(0,0,123,0.4)
-            url("/img/cat.gif")
+            url("img/cat.gif")
             left top
             no-repeat
             `
