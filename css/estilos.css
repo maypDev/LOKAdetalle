@@ -43,8 +43,8 @@ main button#no{
 main img{
     position: absolute;
     bottom: 0;
-    width: 800px;
-    left: calc(50% - (800px/2));
+    width: 80vw;
+    left: calc(50% - (80vw/2));
     z-index: -1;
 }
 
